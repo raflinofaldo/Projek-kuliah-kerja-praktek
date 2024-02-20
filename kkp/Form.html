@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Konsultasi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Arch Interior Batam</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tentang" style="color: white;">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portofolio" style="color: white;">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontak" style="color: white;">Hubungi Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#konsultasi" style="color: white;">Form Konsultasi</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="color: #55acee;">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--<form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>-->
+        </div>
+    </div>
+</nav>
+
+<br>
+<br>
+
+<!--Form-->
+<div class="container-fluid pt-5 pb-5 btn-light" id="portofolio">
+    <div class="container text-center">
+        <h4 class="display-3">SILAHKAN MENGISI FORM SESUAI DENGAN YANG INGIN ANDA KONSULTASIKAN</h4>
+    </div>
+</div>
+
+<form>
+    <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Nama</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Alamat</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="" class="col-sm-2 col-form-label">Kota</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Nomor Telepon/Handphone</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">Baru Bangun atau Renovasi</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Baru bangun/Renovasi" id="barubangun/renovasi1"
+                        value="option1" checked>
+                    <label class="form-check-label" for="barubangun/renovasi1">
+                        Baru Bangun
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="Baru bangun/Renovasi" id="barubangun/renovasi2"
+                        value="option2">
+                    <label class="form-check-label" for="barubangun/renovasi2">
+                        Renovasi
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">Tipe Bangunan</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                        checked>
+                    <label class="form-check-label" for="gridRadios1">
+                        Rumah
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Kantor
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Cafe
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Ruko
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Apartemen
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Luas Bangunan</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Rencana Budget</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3">
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Keterangan</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword3">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Kirim</button>
+</form>
+<!--Form end-->
+
+<!-- Footer -->
+<footer class="text-center text-lg-start text-white" style="background-color: #141414" id="kontak">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+            <!--Grid row-->
+            <div class="row" style="text-align: center;">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Alamat</h6>
+                    <p><i class="fas fa-home mr-3"></i> Golden land blok A No 9G, Jl. Goldenland, Batam Kota, Batam,
+                        Kepulauan
+                        Riau </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p><i class="fas fa-envelope mr-3"></i> arch.interior3design@gmail.com </p>
+                    <p><i class="fas fa-phone mr-3"></i> +62 822 8775 6306 </p>
+                    <p><i class="fas fa-print mr-3"></i> +62 811 7772 806 </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+                    <!-- Facebook -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!"
+                        role="button"><i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!"
+                        role="button"><i class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!"
+                        role="button"><i class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!"
+                        role="button"><i class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!"
+                        role="button"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- Github -->
+                    <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!"
+                        role="button"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container text-center">
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0686528618207!2d104.0403365!3d1.1107139000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d9893a9e2241e3%3A0xe89bb8f504aad63e!2sBatam%2C%20Taman%20Baloi%2C%20Kec.%20Batam%20Kota%2C%20Kota%20Batam%2C%20Kepulauan%20Riau%2029444!5e0!3m2!1sid!2sid!4v1708207987788!5m2!1sid!2sid"
+                    class="d-block w-100" height="500px" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright
+        <a class="text-white">Rafli nofaldo</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->
